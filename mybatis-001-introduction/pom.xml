@@ -8,6 +8,22 @@
     <artifactId>mybatis-001-introduction</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+<!--    打包方式-->
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.33</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.5.12</version>
+        </dependency>
+    </dependencies>
+
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
