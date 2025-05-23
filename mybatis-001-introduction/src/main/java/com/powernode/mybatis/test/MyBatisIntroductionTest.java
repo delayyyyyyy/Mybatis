@@ -19,6 +19,7 @@ public class MyBatisIntroductionTest {
 
         int cnt = sqlSession.insert("insertCar");
         System.out.println("cnt = " + cnt);
+        sqlSession.commit();
 
     }
 }
